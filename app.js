@@ -33,7 +33,7 @@ var getQueryParameter = function(name) {
 	return (window.location.search.match('[?&]' + name + '=([^&]*)') || [])[1];
 };
 
-var url = window.location.protocol + '//' + window.location.host;
+var url = 'http://35.222.83.180';
 var token = getQueryParameter('token');
 
 var style = function (label) {
