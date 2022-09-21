@@ -33,7 +33,7 @@ var getQueryParameter = function(name) {
 	return (window.location.search.match('[?&]' + name + '=([^&]*)') || [])[1];
 };
 
-var url = 'http://35.222.83.180';
+var url = 'https://delora.loca.lt';
 var token = getQueryParameter('token');
 
 var style = function (label) {
